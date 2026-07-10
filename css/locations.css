@@ -1,0 +1,52 @@
+.locations__grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--space-2);
+}
+
+.location-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  text-align: center;
+  padding: var(--space-3) var(--space-1);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  transition: transform var(--duration-fast) var(--ease-base),
+    border-color var(--duration-fast) var(--ease-base),
+    box-shadow var(--duration-fast) var(--ease-base);
+}
+
+.location-chip:hover,
+.location-chip:focus-visible {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-soft);
+}
+
+.location-chip__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.location-chip__name {
+  font-family: var(--font-display);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  line-height: var(--lh-snug);
+}
+
+@media (max-width: 1024px) {
+  .locations__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .locations__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Placeholder artwork: Gray's Beach</title>
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3D3AE"/>
+      <stop offset="100%" stop-color="#45737A"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#sky5)"/>
+  <circle cx="200" cy="140" r="52" fill="#F6F1E7" opacity="0.85"/>
+  <path d="M0,300 C100,280 300,280 400,300 L400,500 L0,500 Z" fill="#7C8C5B" opacity="0.5"/>
+  <g stroke="#1C3A4B" stroke-width="6" opacity="0.85">
+    <line x1="120" y1="330" x2="60" y2="480"/>
+    <line x1="280" y1="330" x2="340" y2="480"/>
+  </g>
+  <g stroke="#1C3A4B" stroke-width="5" opacity="0.85">
+    <line x1="90" y1="360" x2="310" y2="360"/>
+    <line x1="82" y1="390" x2="318" y2="390"/>
+    <line x1="74" y1="420" x2="326" y2="420"/>
+    <line x1="66" y1="450" x2="334" y2="450"/>
+  </g>
+  <text x="20" y="480" font-family="monospace" font-size="11" fill="#1C3A4B" opacity="0.4">ARTWORK PLACEHOLDER</text>
+</svg>

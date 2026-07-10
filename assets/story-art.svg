@@ -1,0 +1,17 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Placeholder artwork: Cape Cod map study</title>
+  <rect width="600" height="600" fill="#E3D3AE"/>
+  <path d="M60,180 C140,140 220,150 280,190 C330,222 320,260 380,250 C440,240 470,190 520,210 C540,218 545,240 525,255 C480,285 470,330 430,345 C480,360 500,400 470,430 C440,458 380,440 350,410 C320,440 260,450 220,420 C190,470 130,470 100,430 C70,470 40,430 60,390 C30,360 30,300 60,270 C30,240 30,205 60,180 Z"
+    fill="#F6F1E7" stroke="#1C3A4B" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="180" cy="230" r="7" fill="#45737A"/>
+  <circle cx="330" cy="230" r="7" fill="#45737A"/>
+  <circle cx="440" cy="260" r="7" fill="#45737A"/>
+  <circle cx="130" cy="380" r="7" fill="#7C8C5B"/>
+  <circle cx="400" cy="390" r="7" fill="#7C8C5B"/>
+  <circle cx="250" cy="400" r="7" fill="#7C8C5B"/>
+  <g stroke="#1C3A4B" stroke-width="1.5" opacity="0.4" stroke-dasharray="4 5">
+    <path d="M180,230 L330,230 L440,260"/>
+    <path d="M130,380 L250,400 L400,390"/>
+  </g>
+  <text x="24" y="576" font-family="monospace" font-size="12" fill="#1C3A4B" opacity="0.4">ARTWORK PLACEHOLDER</text>
+</svg>

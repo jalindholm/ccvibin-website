@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Placeholder artwork: Nauset Marsh</title>
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3D3AE"/>
+      <stop offset="100%" stop-color="#7C8C5B"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#sky3)"/>
+  <path d="M0,260 C120,300 180,220 260,270 C320,305 360,260 400,280 L400,500 L0,500 Z" fill="#9FC9C3" opacity="0.6"/>
+  <path d="M0,340 C140,310 260,380 400,330 L400,500 L0,500 Z" fill="#45737A" opacity="0.75"/>
+  <g stroke="#1C3A4B" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <path d="M60,420 C55,380 65,360 60,330"/>
+    <path d="M90,430 C86,390 96,365 92,335"/>
+    <path d="M120,425 C116,385 126,360 122,332"/>
+    <path d="M280,410 C276,375 286,350 282,320"/>
+    <path d="M310,420 C306,382 316,358 312,328"/>
+    <path d="M340,415 C336,378 346,352 342,325"/>
+  </g>
+  <text x="20" y="480" font-family="monospace" font-size="11" fill="#1C3A4B" opacity="0.4">ARTWORK PLACEHOLDER</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Placeholder artwork: Scargo Tower</title>
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3D3AE"/>
+      <stop offset="100%" stop-color="#9FC9C3"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#sky1)"/>
+  <circle cx="200" cy="150" r="60" fill="#F6F1E7" opacity="0.85"/>
+  <path d="M0,300 C80,270 120,320 200,300 C280,280 320,320 400,290 L400,500 L0,500 Z" fill="#45737A" opacity="0.55"/>
+  <path d="M0,340 C100,320 160,360 240,335 C300,315 350,345 400,330 L400,500 L0,500 Z" fill="#1C3A4B" opacity="0.85"/>
+  <g transform="translate(180,180)">
+    <rect x="10" y="0" width="20" height="140" fill="#1C3A4B"/>
+    <rect x="0" y="130" width="40" height="16" fill="#1C3A4B"/>
+    <rect x="6" y="20" width="8" height="10" fill="#F6F1E7" opacity="0.6"/>
+    <rect x="26" y="20" width="8" height="10" fill="#F6F1E7" opacity="0.6"/>
+    <rect x="6" y="50" width="8" height="10" fill="#F6F1E7" opacity="0.6"/>
+    <rect x="26" y="50" width="8" height="10" fill="#F6F1E7" opacity="0.6"/>
+    <rect x="6" y="80" width="8" height="10" fill="#F6F1E7" opacity="0.6"/>
+    <rect x="26" y="80" width="8" height="10" fill="#F6F1E7" opacity="0.6"/>
+  </g>
+  <text x="20" y="480" font-family="monospace" font-size="11" fill="#1C3A4B" opacity="0.35">ARTWORK PLACEHOLDER</text>
+</svg>

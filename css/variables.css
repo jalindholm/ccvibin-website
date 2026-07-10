@@ -1,0 +1,77 @@
+:root {
+  /* ---- Brand colors ---- */
+  --color-atlantic-navy: #1c3a4b;
+  --color-weathered-teal: #45737a;
+  --color-seafoam-blue: #9fc9c3;
+  --color-marsh-green: #7c8c5b;
+  --color-sandy-beige: #e3d3ae;
+  --color-oyster-cream: #f6f1e7;
+  --color-white: #ffffff;
+
+  /* Semantic aliases */
+  --color-bg: var(--color-oyster-cream);
+  --color-bg-alt: var(--color-white);
+  --color-text: var(--color-atlantic-navy);
+  --color-text-muted: #4a6472;
+  --color-accent: var(--color-weathered-teal);
+  --color-accent-soft: var(--color-seafoam-blue);
+  --color-border: var(--color-sandy-beige);
+
+  /* ---- Typography ---- */
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --fs-xs: 0.8rem;
+  --fs-sm: 0.9rem;
+  --fs-base: 1rem;
+  --fs-md: 1.15rem;
+  --fs-lg: 1.4rem;
+  --fs-xl: 1.9rem;
+  --fs-2xl: 2.6rem;
+  --fs-3xl: 3.6rem;
+  --fs-4xl: 4.8rem;
+
+  --lh-tight: 1.1;
+  --lh-snug: 1.35;
+  --lh-normal: 1.6;
+
+  --tracking-wide: 0.06em;
+  --tracking-wider: 0.14em;
+
+  /* ---- Spacing scale (8px base) ---- */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 4rem;
+  --space-7: 6rem;
+  --space-8: 8rem;
+
+  /* ---- Layout ---- */
+  --container-max: 1240px;
+  --container-pad: var(--space-3);
+  --nav-height: 76px;
+
+  /* ---- Radius ---- */
+  --radius-sm: 6px;
+  --radius-md: 14px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  /* ---- Shadow ---- */
+  --shadow-soft: 0 4px 24px rgba(28, 58, 75, 0.08);
+  --shadow-hover: 0 16px 40px rgba(28, 58, 75, 0.16);
+  --shadow-nav: 0 2px 16px rgba(28, 58, 75, 0.06);
+
+  /* ---- Motion ---- */
+  --ease-base: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 0.2s;
+  --duration-base: 0.4s;
+  --duration-slow: 0.8s;
+}
+
+/*
+  Breakpoints (referenced by convention, since media queries can't consume
+  custom properties): 480 / 768 / 1024 / 1280.
+*/

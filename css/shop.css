@@ -1,0 +1,28 @@
+.shop {
+  text-align: center;
+}
+
+.shop__inner {
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+.shop__actions {
+  margin-top: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.shop__secondary-link {
+  font-size: var(--fs-sm);
+  color: var(--color-text-muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.shop__secondary-link:hover,
+.shop__secondary-link:focus-visible {
+  color: var(--color-accent);
+}

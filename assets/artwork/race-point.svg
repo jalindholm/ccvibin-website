@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t">
+  <title id="t">Placeholder artwork: Race Point</title>
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1C3A4B"/>
+      <stop offset="100%" stop-color="#9FC9C3"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#sky4)"/>
+  <circle cx="290" cy="110" r="34" fill="#F6F1E7" opacity="0.9"/>
+  <path d="M0,330 C90,300 140,340 220,320 C280,305 330,330 400,315 L400,500 L0,500 Z" fill="#E3D3AE"/>
+  <path d="M0,380 C120,365 280,365 400,382 L400,500 L0,500 Z" fill="#E3D3AE" opacity="0.7"/>
+  <g transform="translate(80,250)">
+    <rect x="8" y="10" width="16" height="70" fill="#F6F1E7"/>
+    <rect x="4" y="76" width="24" height="10" fill="#1C3A4B"/>
+    <polygon points="0,10 16,-16 32,10" fill="#1C3A4B"/>
+    <rect x="12" y="-4" width="8" height="8" fill="#45737A"/>
+  </g>
+  <text x="20" y="480" font-family="monospace" font-size="11" fill="#F6F1E7" opacity="0.55">ARTWORK PLACEHOLDER</text>
+</svg>
