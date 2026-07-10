@@ -44,7 +44,7 @@
 .hero__subtitle {
   font-size: var(--fs-md);
   color: var(--color-text-muted);
-  max-width: 46ch;
+  max-width: 50ch;
   margin-bottom: var(--space-5);
 }
 
