@@ -7,6 +7,10 @@
   margin-inline: auto;
 }
 
+.shop .section-copy {
+  margin-inline: auto;
+}
+
 .shop__actions {
   margin-top: var(--space-5);
   display: flex;
