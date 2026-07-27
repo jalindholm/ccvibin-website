@@ -32,6 +32,7 @@
 .hero__logo {
   width: min(220px, 45vw);
   height: auto;
+  margin-inline: auto;
   margin-bottom: var(--space-4);
 }
 

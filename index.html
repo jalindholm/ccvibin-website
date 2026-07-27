@@ -9,7 +9,7 @@
   <link rel="icon" href="assets/favicon.png"> 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/site.css" />
 </head>
@@ -29,11 +29,12 @@
 
       <ul class="nav__links" id="nav-links">
         <li><a class="nav__link" href="#collection">Collection</a></li>
+        <li><a class="nav__link" href="Contest2026.html">Contest</a></li>
         <li><a class="nav__link" href="#story">About</a></li>
         <li><a class="nav__link" href="https://www.instagram.com/capecodvibin" target="_blank" rel="noopener noreferrer">Instagram</a></li>
         <li><a class="nav__link" href="https://www.facebook.com/CapeCodVibin" target="_blank" rel="noopener noreferrer">Facebook</a></li>
         <li><a class="nav__link" href="https://www.tiktok.com/@CapeCodVibin" target="_blank" rel="noopener noreferrer">TikTok</a></li>
-        <li><a class="nav__link nav__link--cta" href="#shop">Shop</a></li>
+        <li><a class="nav__link nav__link--cta" href="https://cape-cod-vibin.printify.me/">Shop</a></li>
       </ul>
     </div>
   </header>
@@ -47,11 +48,33 @@
         <h1 class="hero__title">THE CAPE THE LOCALS KNOW</h1>
         <p class="hero__subtitle">Capturing places locals love to visit, and visitors love to discover.</p>
         <div class="hero__actions">
-          <a class="btn btn--primary" href="https://cape-cod-vibin.printify.me/">Shop Now</a>
-          <!-- <a class="btn btn--secondary" href="https://www.instagram.com/capecodvibin" target="_blank" rel="noopener noreferrer">Follow on Instagram</a> -->
+          <a class="btn btn--primary" href="https://cape-cod-vibin.printify.me/" target="_blank" rel="noopener noreferrer">Shop Now</a>
+          <a class="btn btn--secondary" href="Contest2026.html">2026 Summer Contest</a>
         </div>
       </div>
     </section>
+
+    <aside class="contest-promo" aria-labelledby="contest-promo-title">
+      <div class="container">
+        <div class="contest-promo__panel" data-reveal>
+          <div class="contest-promo__copy">
+            <span class="eyebrow">2026 Summer Contest</span>
+            <h2 class="contest-promo__title" id="contest-promo-title">Name the Next Cape Cod Vibin' Shirt</h2>
+            <p class="contest-promo__text">
+              Tell us which Cape Cod hotspot deserves its own design. One winning location will
+              join the collection, and the person who nominated it will receive the first shirt.
+            </p>
+            <a class="btn btn--secondary" href="Contest2026.html">Explore the Contest</a>
+          </div>
+
+          <div class="contest-promo__note" aria-hidden="true">
+            <img class="contest-promo__logo" src="assets/summerContest.png" alt="" width="1008" height="1055" />
+            <span class="contest-promo__note-title">You pick the next pin.</span>
+            <time class="contest-promo__deadline" datetime="2026-09-07T23:59:59-04:00">Enter by Labor Day</time>
+          </div>
+        </div>
+      </div>
+    </aside>
 
     <section class="section" id="collection">
       <div class="container">
@@ -69,7 +92,20 @@
         <div class="collection__grid">
           <a class="print-card" href="https://cape-cod-vibin.printify.me/" target="_blank" rel="noopener noreferrer" data-reveal>
             <div class="print-card__frame">
-              <img class="print-card__art" src="assets/artwork/scargo-tower.png" alt="Scargo Tower print artwork" loading="lazy" />
+              <!-- <img class="print-card__art" src="assets/artwork/sandwich-boardwalk.png" alt="Sandwich Boardwalk print artwork" loading="lazy" /> -->
+              <img class="print-card__art" src="assets/product/mockup-boardwalk-blue-lighthouse-website.png" alt="Sandwich Boardwalk print artwork" loading="lazy" />
+            </div>
+            <div class="print-card__body">
+              <h3 class="print-card__location">Sandwich Boardwalk</h3>
+              <p class="print-card__town">Sandwich</p>
+              <p class="print-card__tagline">Almost There</p>
+            </div>
+          </a>
+
+         <a class="print-card" href="https://cape-cod-vibin.printify.me/" target="_blank" rel="noopener noreferrer" data-reveal>
+            <div class="print-card__frame">
+              <!-- <img class="print-card__art" src="assets/artwork/scargo-tower.png" alt="Scargo Tower print artwork" loading="lazy" /> -->
+              <img class="print-card__art" src="assets/product/mockup-scargo-vneck-pink-skidoo-website.png" alt="Scargo Tower print artwork" loading="lazy" />
             </div>
             <div class="print-card__body">
               <h3 class="print-card__location">Scargo Tower</h3>
@@ -78,9 +114,10 @@
             </div>
           </a>
 
-          <a class="print-card" href="https://cape-cod-vibin.printify.me/" target="_blank" rel="noopener noreferrer" data-reveal>
+         <a class="print-card" href="https://cape-cod-vibin.printify.me/" target="_blank" rel="noopener noreferrer" data-reveal>
             <div class="print-card__frame">
-              <img class="print-card__art" src="assets/artwork/race-point.png" alt="Race Point print artwork" loading="lazy" />
+              <!-- <img class="print-card__art" src="assets/artwork/race-point.png" alt="Race Point print artwork" loading="lazy" /> -->
+              <img class="print-card__art" src="assets/product/mockup-racepoint-vneck-gray-fishing-website.png" alt="Race Point print artwork" loading="lazy" />
             </div>
             <div class="print-card__body">
               <h3 class="print-card__location">Race Point</h3>
@@ -88,18 +125,8 @@
               <p class="print-card__tagline">The End of the World</p>
             </div>
           </a>
-
-          <a class="print-card" href="https://cape-cod-vibin.printify.me/" target="_blank" rel="noopener noreferrer" data-reveal>
-            <div class="print-card__frame">
-              <img class="print-card__art" src="assets/artwork/sandwich-boardwalk.png" alt="Sandwich Boardwalk print artwork" loading="lazy" />
-            </div>
-            <div class="print-card__body">
-              <h3 class="print-card__location">Sandwich Boardwalk</h3>
-              <p class="print-card__town">Sandwich</p>
-              <p class="print-card__tagline">Almost There</p>
-            </div>
-          </a>
-        </div>
+  
+       </div>
       </div>
     </section>
 
@@ -236,6 +263,7 @@
             <span class="footer__col-title">Shop</span>
             <a class="footer__link" href="https://cape-cod-vibin.printify.me/" target="_blank" rel="noopener noreferrer">Printify Store</a>
             <a class="footer__link" href="https://vt.tiktok.com/ZTBWC6nuk/" target="_blank" rel="noopener noreferrer">TikTok Shop</a>
+            <a class="footer__link" href="Contest2026.html">2026 Summer Contest</a>
           </div>
           <div class="footer__col">
             <span class="footer__col-title">Contact</span>
