@@ -39,6 +39,7 @@ Every page must load only the shared entrypoint:
 | `story.css` | Editorial image-and-copy split layout |
 | `social.css` | Dark social section and social link cards |
 | `shop.css` | Shop call-to-action layout |
+| `contest.css` | Shared contest promotion, contest page, countdown, steps, prize, and rules layouts |
 | `footer.css` | Site-wide footer |
 
 Placement rules:
@@ -242,4 +243,3 @@ Use the current `index.html` header and footer as the canonical shared chrome. T
 - Test hover, keyboard focus, mobile navigation, Escape-to-close, and reduced motion.
 - Verify headings, alternative text, external-link attributes, and color contrast.
 - Preserve the cream/navy/teal editorial identity and the local, illustrated Cape Cod voice.
-

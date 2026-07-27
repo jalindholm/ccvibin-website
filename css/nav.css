@@ -72,7 +72,8 @@
 }
 
 .nav__link:hover::after,
-.nav__link:focus-visible::after {
+.nav__link:focus-visible::after,
+.nav__link[aria-current="page"]::after {
   transform: scaleX(1);
   transform-origin: left;
 }
