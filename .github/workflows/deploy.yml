@@ -18,5 +18,5 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}
-          source: "html,css,js,assets"
+          source: "index.html,Contest2026.html,css,js,assets"
           target: ${{ secrets.DEPLOY_PATH }}
